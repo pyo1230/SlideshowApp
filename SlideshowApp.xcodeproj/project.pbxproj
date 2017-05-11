@@ -12,6 +12,10 @@
 		CC7DFBC21EB06F510049E41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7DFBC01EB06F510049E41B /* Main.storyboard */; };
 		CC7DFBC41EB06F510049E41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7DFBC31EB06F510049E41B /* Assets.xcassets */; };
 		CC7DFBC71EB06F510049E41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7DFBC51EB06F510049E41B /* LaunchScreen.storyboard */; };
+		CC7DFBCF1EB073F30049E41B /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DFBCE1EB073F30049E41B /* ScaleViewController.swift */; };
+		CC7DFBD11EB1BD700049E41B /* spring1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC7DFBD01EB1BD700049E41B /* spring1.jpg */; };
+		CC7DFBD31EB1BD940049E41B /* spring2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC7DFBD21EB1BD930049E41B /* spring2.jpg */; };
+		CC7DFBD51EB1BDA60049E41B /* spring3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC7DFBD41EB1BDA60049E41B /* spring3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		CC7DFBC31EB06F510049E41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7DFBC61EB06F510049E41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7DFBC81EB06F510049E41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7DFBCE1EB073F30049E41B /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		CC7DFBD01EB1BD700049E41B /* spring1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring1.jpg; sourceTree = "<group>"; };
+		CC7DFBD21EB1BD930049E41B /* spring2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring2.jpg; sourceTree = "<group>"; };
+		CC7DFBD41EB1BDA60049E41B /* spring3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 			children = (
 				CC7DFBBB1EB06F510049E41B /* SlideshowApp */,
 				CC7DFBBA1EB06F510049E41B /* Products */,
+				CC7DFBD01EB1BD700049E41B /* spring1.jpg */,
+				CC7DFBD21EB1BD930049E41B /* spring2.jpg */,
+				CC7DFBD41EB1BDA60049E41B /* spring3.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +67,7 @@
 			children = (
 				CC7DFBBC1EB06F510049E41B /* AppDelegate.swift */,
 				CC7DFBBE1EB06F510049E41B /* ViewController.swift */,
+				CC7DFBCE1EB073F30049E41B /* ScaleViewController.swift */,
 				CC7DFBC01EB06F510049E41B /* Main.storyboard */,
 				CC7DFBC31EB06F510049E41B /* Assets.xcassets */,
 				CC7DFBC51EB06F510049E41B /* LaunchScreen.storyboard */,
@@ -125,6 +137,9 @@
 			files = (
 				CC7DFBC71EB06F510049E41B /* LaunchScreen.storyboard in Resources */,
 				CC7DFBC41EB06F510049E41B /* Assets.xcassets in Resources */,
+				CC7DFBD31EB1BD940049E41B /* spring2.jpg in Resources */,
+				CC7DFBD11EB1BD700049E41B /* spring1.jpg in Resources */,
+				CC7DFBD51EB1BDA60049E41B /* spring3.jpg in Resources */,
 				CC7DFBC21EB06F510049E41B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7DFBCF1EB073F30049E41B /* ScaleViewController.swift in Sources */,
 				CC7DFBBF1EB06F510049E41B /* ViewController.swift in Sources */,
 				CC7DFBBD1EB06F510049E41B /* AppDelegate.swift in Sources */,
 			);
